@@ -1,0 +1,10 @@
+div.logo a {
+  background: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/logo_v2.png' ,sizingMethod='crop');
+}
+#content h1 {
+  padding-top: 0px;
+}
+#rightside div.h1 {
+  padding-top: 0px;
+}

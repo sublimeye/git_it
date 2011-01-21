@@ -1,0 +1,65 @@
+div.logo a {
+  background: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/logo_v2.png' ,sizingMethod='crop');
+  cursor: hand;
+}
+#content h1 {
+  padding-top: 0px;
+}
+#rightside div.h1 {
+  padding-top: 0px;
+}
+
+* html #gallery li .wrimg {
+	display: block;
+	font-size: 1px;
+}
+* html #gallery .wrimg span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+}
+
+#gallery ul {
+	display: inline;
+}
+
+#gallery ul li {
+	display: inline;
+}
+
+#gallery ul li .wrimg {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+#gallery ul li .wrimg span {
+	vertical-align: middle;
+	height: 180px;
+	zoom: 1;
+}
+#gallery ul.photos li .wrimg span {
+	height: 174px;
+}
+
+*html ul#catalog a.item
+{
+ccursor: hand;
+border-color: pink;
+filter: chroma(color=pink);
+}
+
+*html   #sub-catalog a.item {
+border-color: pink;
+filter: chroma(color=pink);
+}
+#catalog li a.item span {
+	display: block;
+	position: relative;
+	margin: 4px 30px;
+		width: auto;
+		height: auto;
+	padding: 4px;
+	background: url('../img/img_border.jpg') no-repeat;
+}
